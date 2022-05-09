@@ -8,6 +8,12 @@
 - Change the signing mode to unsigned
 - Hit save
 
+### Where to find Cloudinary Cloud Name
+- Click your profile picture on the upper right 
+- Click on the gear icon (configurations)
+- Go to Account tab
+- You can see it at the bottom of the page
+
 ### Upload image on react
 ```javascript
 // handler function
