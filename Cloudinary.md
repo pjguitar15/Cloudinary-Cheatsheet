@@ -32,7 +32,7 @@ const uploadImage = (files) => {
 import Axios from 'axios'
 
 // how to use axios. this is inside uploadImage function
-const formData = new formData()
+const formData = new FormData()
 formData.append('file', files[0])
 formData.append('upload_preset', 'presentNameHere')
 
