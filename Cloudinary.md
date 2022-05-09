@@ -38,7 +38,7 @@ formData.append('upload_preset', 'presentNameHere')
 
 const cloudName = 'pedro-machado-inc'
 Axios.post(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, formData)
-.then((res) => console.log(res))
+.then((res) => console.log(res.data.url)) // res.data.url takes the image url
 ```
 
 ### Cloudinary React Package
