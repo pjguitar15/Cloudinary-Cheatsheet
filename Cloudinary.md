@@ -47,3 +47,8 @@ Axios.post(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, formData
 import { Image }  from 'cloudinary-react'
 <Image cloudName='pedro-mechado-inc' publicId='https://res.cloudinary.com/somethingsomething' />
 ```
+
+### Pass file object to a state
+```javascript
+<input onChange={(e) => setImageSelected(e.target.files)} />
+```
