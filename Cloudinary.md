@@ -34,7 +34,7 @@ import Axios from 'axios'
 // how to use axios. this is inside uploadImage function
 const formData = new FormData()
 formData.append('file', files[0])
-formData.append('upload_preset', 'presentNameHere')
+formData.append('upload_preset', 'presetNameHere')
 
 const cloudName = 'pedro-machado-inc'
 Axios.post(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`, formData)
