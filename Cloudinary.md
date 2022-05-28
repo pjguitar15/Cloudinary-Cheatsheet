@@ -33,7 +33,7 @@ import Axios from 'axios'
 
 // how to use axios. this is inside uploadImage function
 const formData = new FormData()
-formData.append('file', files[0])
+formData.append('file', selectedImage) // selectedImage is a state
 formData.append('upload_preset', 'presetNameHere')
 
 const cloudName = 'pedro-machado-inc'
